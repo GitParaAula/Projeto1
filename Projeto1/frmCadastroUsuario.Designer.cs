@@ -34,6 +34,7 @@
             this.txtCadUsuario = new System.Windows.Forms.TextBox();
             this.btnCadastrar = new System.Windows.Forms.Button();
             this.lblTituloUsuario = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblCadUsuario
@@ -92,11 +93,22 @@
             this.lblTituloUsuario.TabIndex = 8;
             this.lblTituloUsuario.Text = "Cadastro Usuario";
             // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(181, 347);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(204, 64);
+            this.button1.TabIndex = 9;
+            this.button1.Text = "Cadastrar";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // frmCadastroUsuario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(519, 438);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.lblTituloUsuario);
             this.Controls.Add(this.btnCadastrar);
             this.Controls.Add(this.txtCadSenha);
@@ -118,5 +130,6 @@
         private System.Windows.Forms.TextBox txtCadUsuario;
         private System.Windows.Forms.Button btnCadastrar;
         private System.Windows.Forms.Label lblTituloUsuario;
+        private System.Windows.Forms.Button button1;
     }
 }
