@@ -90,6 +90,7 @@
             this.dveCadastro.Name = "dveCadastro";
             this.dveCadastro.Size = new System.Drawing.Size(432, 210);
             this.dveCadastro.TabIndex = 8;
+            this.dveCadastro.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.dveCadastro_MouseDoubleClick);
             // 
             // btnSalvar
             // 
@@ -100,6 +101,7 @@
             this.btnSalvar.TabIndex = 9;
             this.btnSalvar.Text = "Salvar";
             this.btnSalvar.UseVisualStyleBackColor = true;
+            this.btnSalvar.Click += new System.EventHandler(this.btnSalvar_Click);
             // 
             // btnVoltar
             // 
